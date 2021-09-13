@@ -195,7 +195,8 @@ body {
 .projects__grid {
   display: grid;
   height: 550px;
-  grid-template-areas: "img1 img1 img2 img3" "img1 img1 img4 img5";
+  grid-template-areas: "img1 img1 img2 img3"
+ "img1 img1 img4 img5";
   gap: 10px;
 }
 
@@ -401,7 +402,9 @@ body {
   }
   /*Proyectos*/
   .projects__grid {
-    grid-template-areas: "img1 img1 img2 img2" "img1 img1 img3 img3" "img4 img4 img5 img5";
+    grid-template-areas: "img1 img1 img2 img2"
+ "img1 img1 img3 img3"
+ "img4 img4 img5 img5";
   }
   /*Testimony*/
   .testimony__grid {
@@ -454,7 +457,11 @@ body {
   }
   /*projects*/
   .projects__grid {
-    grid-template-areas: "img1" "img2" "img3" "img4" "img5";
+    grid-template-areas: "img1"
+ "img2"
+ "img3"
+ "img4"
+ "img5";
     height: auto;
     grid-template-rows: repeat(5, 250px);
     grid-auto-rows: 250px;
@@ -475,7 +482,12 @@ body {
     margin: 0;
     margin-bottom: 20px;
   }
+
+  form {
+    width: 80%;
+  }
 }
+
 
 /*Contacto*/
 ::before,
@@ -583,11 +595,7 @@ input:focus ~ .barra::before {
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-  form {
-    width: 80%;
-  }
-}
+
 
 /*BLOG*/
 .container__card {

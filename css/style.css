@@ -7,7 +7,7 @@ body {
 
 .h1 {
   text-align: center;
-  color: var(--color-primary);
+  color: #667eea7e;
   font-size: 2.5rem;
   margin-bottom: 35px;
 }
@@ -21,14 +21,14 @@ body {
 }
 
 .subtitle {
-  color: var(--color-primary);
+  color: #667eea7e;
   font-size: 2.5rem;
   margin-bottom: 35px;
 }
 
 .hero {
   height: 100vh;
-  background-image: var(--background), url("../multimedia/header.jpg");
+  background-image: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%), url("../multimedia/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -38,7 +38,7 @@ body {
 
 .heroContacto {
   height: 25vh;
-  background: var(--background);
+  background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -108,8 +108,8 @@ body {
 .hero__cta {
   display: inline-block;
   background: #fff;
-  padding: var(--boton-padding);
-  color: var(--color-primary);
+  padding: 20px 40px;
+  color: #667eea7e;
   text-decoration: none;
   border-radius: 40px;
 }
@@ -146,10 +146,10 @@ body {
 .presentation__cta {
   display: inline-block;
   margin-top: 30px;
-  background: var(--color-primary);
+  background: #667eea7e;
   color: #fff;
   text-decoration: none;
-  padding: var(--boton-padding);
+  padding: 20px 40px;
   border-radius: 40px;
 }
 
@@ -267,7 +267,7 @@ body {
 .testimony__item {
   width: 95%;
   margin: 0 auto;
-  background: var(--color-secundary);
+  background: #764ba2;
   box-shadow: 0 8px 10px rgba(66, 66, 66, 0.5);
   border-radius: 7px;
   padding: 30px 25px;
@@ -309,7 +309,7 @@ body {
 /*Para el formulario contacto*/
 /*Footer*/
 .footer {
-  background: var(--color-primary);
+  background: #667eea7e;
 }
 
 .footer__grid {
@@ -474,6 +474,9 @@ body {
     margin: 0;
     margin-bottom: 20px;
   }
+  form {
+    width: 80%;
+  }
 }
 
 /*Para el formulario contacto*/
@@ -496,7 +499,7 @@ body {
 
 .h1Formulario {
   text-align: center;
-  color: var(--color-primary);
+  color: #667eea7e;
   font-size: 2.5rem;
   margin-bottom: 35px;
 }
@@ -526,7 +529,7 @@ input {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid var(--colorTextos);
+  border-bottom: 1px solid #49454567;
 }
 
 input:focus {
@@ -535,7 +538,7 @@ input:focus {
 }
 
 label {
-  color: var(--colorTextos);
+  color: #49454567;
   font-size: 16px;
   position: absolute;
   left: 5px;
@@ -573,7 +576,7 @@ input:focus ~ .barra::before {
 }
 
 .botonSuscribite {
-  background: var(--color-secundary);
+  background: #764ba2;
   border: none;
   display: block;
   width: 80%;
@@ -581,12 +584,6 @@ input:focus ~ .barra::before {
   color: #fff;
   height: 40px;
   cursor: pointer;
-}
-
-@media screen and (max-width: 500px) {
-  form {
-    width: 80%;
-  }
 }
 
 /*Para el formulario contacto*/
@@ -649,7 +646,7 @@ input:focus ~ .barra::before {
 .info__description {
   width: 100%;
   height: 220px;
-  color: var(--colorTextos);
+  color: #49454567;
   background: #f2f2f2;
   padding: 20px;
   margin-top: -220px;
@@ -675,7 +672,7 @@ input:focus ~ .barra::before {
 .info__description a input {
   margin-top: 20px;
   padding: 10px 40px;
-  background: var(--color-secundary);
+  background: #764ba2;
   color: white;
   font-weight: 500;
   font-size: 14px;
@@ -692,5 +689,5 @@ input:focus ~ .barra::before {
 
 /*COLOR DE LAS CARD*/
 .c:hover .logo {
-  background: var(--color-secundary);
+  background: #764ba2;
 }

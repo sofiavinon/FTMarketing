@@ -22,9 +22,9 @@
   .presentation__cta {
     display: inline-block;
     margin-top: 30px;
-    background: var(--color-primary);
+    background: $color-primary;
     color: #fff;
     text-decoration: none;
-    padding: var(--boton-padding);
+    padding: $boton-padding;
     border-radius: 40px;
   }
